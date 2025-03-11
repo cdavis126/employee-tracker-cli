@@ -1,0 +1,53 @@
+# 📌 Employee Tracker CLI
+Video Demo Here
+
+A command-line application for managing a companys **departments, roles, and employees**. This tool allows business owners to efficiently organize their workforce using a PostgreSQL database.  
+
+## 🚀 Deployment  
+**This is a CLI-based app and does not have a live deployment.**  
+To run it locally, follow the **"Running Locally"** section below.  
+
+## 📖 About the App  
+Employee Tracker CLI is a **content management system (CMS)** designed for business owners to **view, add, and update** company employee records through an intuitive command-line interface.  
+
+### **Features:**  
+- 📌 **View All Departments** – Lists all departments and their IDs.  
+- 📌 **View All Roles** – Displays job titles, salaries, and department associations.  
+- 📌 **View All Employees** – Shows employee details, including role and manager.  
+- 📌 **Add New Departments, Roles, and Employees** – Allows adding new company records.  
+- 📌 **Update Employee Role & Manager** – Modifies existing employee data.  
+- 📌 **View Employees by Department or Manager** – Filters employees accordingly.  
+- 📌 **Delete Departments, Roles, and Employees** – Removes records from the database.  
+- 📌 **Budget Overview** – Calculates total salary expenses per department.  
+
+## 🎯 How It Works  
+1️⃣ **Run the Application** – Start the CLI with `node cli.js`.  
+2️⃣ **Select an Action** – Choose from various options to view, add, update, or delete records.  
+3️⃣ **Follow Prompts** – Enter the necessary details as requested.  
+4️⃣ **Database Updates in Real-Time** – Changes are saved to the PostgreSQL database instantly.  
+
+## 🛠️ Tech Stack  
+
+### **Backend:**  
+✔ Node.js, Inquirer  
+✔ PostgreSQL with `pg` package  
+✔ Express (for API routes, if applicable)  
+
+### **Database:**  
+✔ PostgreSQL  
+
+📌 Environment Variables
+Create a .env file in your project root:
+PG_USER=your_username
+PG_HOST=localhost
+PG_DATABASE=employee_db
+PG_PASSWORD=your_password
+PG_PORT=5432
+
+APP_PORT=3001
+
+## 📄 License
+This project is open-source under the MIT License.
+
+💡 Built with Node.js, PostgreSQL, and Inquirer. 🚀
+
